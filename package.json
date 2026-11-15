@@ -1,0 +1,33 @@
+{
+  "name": "pr-hub-craft",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "description": "Modern whitelabel dashboard to organize, prioritize, and triage GitHub Pull Requests via gh CLI.",
+  "homepage": "https://github.com/batistalucasv/PR-Hub-Craft#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/batistalucasv/PR-Hub-Craft.git"
+  },
+  "bugs": {
+    "url": "https://github.com/batistalucasv/PR-Hub-Craft/issues"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "node server/index.js",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lucide-react": "^0.460.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15",
+    "vite": "^5.4.11"
+  }
+}
